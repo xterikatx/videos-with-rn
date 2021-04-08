@@ -14,7 +14,7 @@ const ListVideos = ({navigation}) => {
       <TouchableHighlight
         style={styles.button}
         onPress={() => navigation.navigate('Video2')}>
-        <Text style={styles.text}>Video 02</Text>
+        <Text style={styles.text}>Youtube Player</Text>
       </TouchableHighlight>
     </>
   );
