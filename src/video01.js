@@ -13,7 +13,8 @@ const Video01 = ({navigation, route}) => {
    * busca, pausa, play, titulo, tratamento de erros
    *
    * Vantagem: customizavel, adaptavel, rápido.
-   *
+   * Desvantagem; react-native-video não funciona vídeos do youtube, apenas VIMEO,
+   * se usar o vimeo PRO
    *
    * Também tem como usar, uma lib chamada react-native-media-controls
    * Ela também é usada com react-native-video, segundo a própria documentação é
