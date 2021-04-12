@@ -6,6 +6,7 @@ import Video01 from './src/video01';
 import Video02 from './src/video02';
 import ListVideos from './src';
 import Video03 from './src/video03';
+import Video4 from './src/video04';
 
 const Stack = createStackNavigator();
 
@@ -19,6 +20,7 @@ function App() {
         <Stack.Screen name="Video1" component={Video01} />
         <Stack.Screen name="Video2" component={Video02} />
         <Stack.Screen name="Video3" component={Video03} />
+        <Stack.Screen name="Video4" component={Video4} />
       </Stack.Navigator>
     </NavigationContainer>
   );

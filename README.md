@@ -4,7 +4,16 @@
 <br>
 <hr>
 
-- React Native Youtube: Ótimo para rodar vídeos diretamente do Youtube, bem performático e também é bem customizável. Desvantagem: Só videos do Youtube.
+- React Native Youtube: Simples, usa o a tela padrão de vídeo do sistema do aparelho. Faz o mesmo que o react-native-video, diferença é que 
+é para rodar somente vídeos do Youtube
+    ![title](Images/rn-youtube.png)
+
+
+<br>
+<hr>
+
+
+- React Native Youtube Iframe: Ótimo para rodar vídeos diretamente do Youtube sem precisar da Chave de API, bem performático e também é bem customizável e funciona os vídeos do youtube mesmo sem o aparelho ter o Aplicativo do Youtube. Desvantagem: Só videos do Youtube. OBS: A biblioteca é atualizada
     ![title](Images/youtube-player.png)
 
 

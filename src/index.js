@@ -21,6 +21,11 @@ const ListVideos = ({navigation}) => {
         onPress={() => navigation.navigate('Video3')}>
         <Text style={styles.text}>Youtube WEBV</Text>
       </TouchableHighlight>
+      <TouchableHighlight
+        style={styles.button}
+        onPress={() => navigation.navigate('Video4')}>
+        <Text style={styles.text}>RN Youtube</Text>
+      </TouchableHighlight>
     </>
   );
 };
